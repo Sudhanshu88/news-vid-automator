@@ -5,24 +5,24 @@ import { User, Target, Zap, Code, Cloud, Brain } from "lucide-react";
 const AboutSection = () => {
   const highlights = [
     {
-      icon: <Code className="w-6 h-6" />,
-      title: "Software Development",
-      description: "Proficient in Python and Java with hands-on project experience"
+      icon: <Target className="w-6 h-6" />,
+      title: "Leadership & Management",
+      description: "Experience in team management, training, and operational excellence"
     },
     {
-      icon: <Cloud className="w-6 h-6" />,
-      title: "Cloud Computing",
-      description: "AWS certified with experience in S3, EC2, RDS, Lambda, and more"
+      icon: <User className="w-6 h-6" />,
+      title: "Business Development",
+      description: "Skilled in lead generation, client relationships, and strategic partnerships"
+    },
+    {
+      icon: <Zap className="w-6 h-6" />,
+      title: "Customer Relations",
+      description: "Expert in customer service, complaint resolution, and satisfaction enhancement"
     },
     {
       icon: <Brain className="w-6 h-6" />,
-      title: "AI & Innovation",
-      description: "Built AI-powered applications for video generation and emotion detection"
-    },
-    {
-      icon: <Target className="w-6 h-6" />,
-      title: "Growth Mindset",
-      description: "Committed to continuous learning and contributing to impactful projects"
+      title: "Strategic Thinking",
+      description: "Committed to driving organizational success through innovative solutions"
     }
   ];
 
@@ -37,11 +37,11 @@ const AboutSection = () => {
               About Me
             </Badge>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Passionate About <span className="text-gradient">Technology</span>
+              Passionate About <span className="text-gradient">Excellence</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              A highly motivated Computer Science graduate with a strong foundation in software development
-              and a passion for innovation.
+              A highly motivated Business Administration graduate with strong leadership skills
+              and a passion for driving organizational success.
             </p>
           </div>
 
@@ -55,15 +55,15 @@ const AboutSection = () => {
                     <h3 className="text-xl font-semibold">My Journey</h3>
                   </div>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    I am a detail-oriented Computer Science graduate with a strong foundation in software 
-                    development. My expertise spans across <strong className="text-primary">Python</strong>, 
-                    <strong className="text-primary"> Java</strong>, and 
-                    <strong className="text-primary"> cloud computing technologies</strong>.
+                    I seek challenging opportunities where I can fully use my skills for the success of 
+                    the organization. My expertise spans across <strong className="text-primary">Business Administration</strong>, 
+                    <strong className="text-primary"> Management</strong>, and 
+                    <strong className="text-primary"> Human Resources</strong>.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    As a fresher, I bring a growth mindset, commitment to continuous learning, and keen 
-                    interest in developing scalable and efficient software solutions within dynamic and 
-                    collaborative tech environments.
+                    With proven experience in team management, customer relations, and business development, 
+                    I excel in leadership, communication, and project management to drive success in dynamic 
+                    business environments.
                   </p>
                 </CardContent>
               </Card>

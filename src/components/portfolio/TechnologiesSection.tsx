@@ -1,37 +1,37 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Code, Cloud, Database, Settings, Cpu, Terminal } from "lucide-react";
+import { Users, Target, Award, Settings, Cpu, Briefcase } from "lucide-react";
 
-const TechnologiesSection = () => {
-  const techCategories = [
+const SkillsSection = () => {
+  const skillCategories = [
     {
-      icon: <Code className="w-6 h-6" />,
-      title: "Programming Languages",
-      techs: ["Python", "Java"],
-      color: "text-tech-blue"
-    },
-    {
-      icon: <Settings className="w-6 h-6" />,
-      title: "Tools & Platforms",
-      techs: ["Git", "GitHub", "Linux", "GitLab"],
+      icon: <Users className="w-6 h-6" />,
+      title: "Leadership & Management",
+      skills: ["Team Management", "Leadership", "Project Management"],
       color: "text-primary"
     },
     {
-      icon: <Cloud className="w-6 h-6" />,
-      title: "Cloud Technologies",
-      techs: ["AWS S3", "EC2", "RDS", "VPC", "Lambda", "API Gateway"],
+      icon: <Target className="w-6 h-6" />,
+      title: "Business Development",
+      skills: ["Lead Generation", "Client Relations", "Strategic Partnerships"],
+      color: "text-tech-blue"
+    },
+    {
+      icon: <Briefcase className="w-6 h-6" />,
+      title: "Professional Skills",
+      skills: ["Communication", "Problem Solving", "Customer Service"],
       color: "text-tech-cyan"
     },
     {
-      icon: <Terminal className="w-6 h-6" />,
-      title: "Frameworks & Libraries",
-      techs: ["FastAPI", "Flask", "Face Transformers", "OpenCV", "MoviePy", "PIL"],
+      icon: <Settings className="w-6 h-6" />,
+      title: "Technical Skills",
+      skills: ["ADCA", "Computer Applications", "Data Analysis"],
       color: "text-tech-purple"
     },
     {
-      icon: <Database className="w-6 h-6" />,
-      title: "Database Management",
-      techs: ["MySQL", "DynamoDB", "Cloud Data Storage"],
+      icon: <Award className="w-6 h-6" />,
+      title: "Additional Qualifications",
+      skills: ["NSS Volunteer", "Class Representative", "Training & Development"],
       color: "text-primary"
     }
   ];
@@ -44,19 +44,19 @@ const TechnologiesSection = () => {
           <div className="text-center mb-16">
             <Badge variant="secondary" className="mb-4 px-4 py-2">
               <Cpu className="w-4 h-4 mr-2" />
-              Technologies
+              Skills
             </Badge>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Technical <span className="text-gradient">Expertise</span>
+              Professional <span className="text-gradient">Skills</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Proficient in modern technologies and frameworks for building scalable applications
+              Comprehensive skill set for driving business success and organizational growth
             </p>
           </div>
 
-          {/* Tech grid */}
+          {/* Skills grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {techCategories.map((category, index) => (
+            {skillCategories.map((category, index) => (
               <Card 
                 key={index} 
                 className="gradient-card shadow-card border-0 transition-smooth hover:shadow-float hover:scale-105"
@@ -71,13 +71,13 @@ const TechnologiesSection = () => {
                 </CardHeader>
                 <CardContent>
                   <div className="flex flex-wrap gap-2">
-                    {category.techs.map((tech, techIndex) => (
+                    {category.skills.map((skill, skillIndex) => (
                       <Badge 
-                        key={techIndex} 
+                        key={skillIndex} 
                         variant="secondary" 
                         className="transition-smooth hover:scale-105 hover:shadow-sm bg-primary/5 text-primary border-primary/20"
                       >
-                        {tech}
+                        {skill}
                       </Badge>
                     ))}
                   </div>
@@ -91,18 +91,14 @@ const TechnologiesSection = () => {
             <Card className="gradient-primary shadow-hero text-white border-0">
               <CardContent className="p-8 text-center">
                 <h3 className="text-2xl font-bold mb-4">Professional Certifications</h3>
-                <div className="grid md:grid-cols-3 gap-6">
+                <div className="grid md:grid-cols-2 gap-6">
                   <div className="space-y-2">
-                    <h4 className="font-semibold">AWS VPC</h4>
-                    <p className="text-sm opacity-90">Coursera - Nov 2024</p>
+                    <h4 className="font-semibold">Advanced Diploma in Computer Application (ADCA)</h4>
+                    <p className="text-sm opacity-90">Professional Certification</p>
                   </div>
                   <div className="space-y-2">
-                    <h4 className="font-semibold">Python Basic</h4>
-                    <p className="text-sm opacity-90">HackerRank</p>
-                  </div>
-                  <div className="space-y-2">
-                    <h4 className="font-semibold">Programming Essentials</h4>
-                    <p className="text-sm opacity-90">Cisco Networking Academy</p>
+                    <h4 className="font-semibold">Youth National Motivational Academy (YNMA)</h4>
+                    <p className="text-sm opacity-90">Leadership & Motivation</p>
                   </div>
                 </div>
               </CardContent>
@@ -114,4 +110,4 @@ const TechnologiesSection = () => {
   );
 };
 
-export default TechnologiesSection;
+export default SkillsSection;

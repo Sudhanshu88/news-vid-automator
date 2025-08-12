@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Folder, Calendar, Video, Brain, ExternalLink, Github } from "lucide-react";
 
-const ProjectsSection = () => {
+const ExperienceSection = () => {
   const projects = [
     {
       title: "AI Video Generation Tool",
@@ -143,4 +143,4 @@ const ProjectsSection = () => {
   );
 };
 
-export default ProjectsSection;
+export default ExperienceSection;

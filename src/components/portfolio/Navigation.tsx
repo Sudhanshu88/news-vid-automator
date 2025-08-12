@@ -7,8 +7,8 @@ const Navigation = () => {
 
   const navItems = [
     { label: "About", href: "#about", icon: <User className="w-4 h-4" /> },
-    { label: "Technologies", href: "#tech", icon: <Code className="w-4 h-4" /> },
-    { label: "Projects", href: "#projects", icon: <Folder className="w-4 h-4" /> },
+    { label: "Skills", href: "#skills", icon: <Code className="w-4 h-4" /> },
+    { label: "Experience", href: "#experience", icon: <Folder className="w-4 h-4" /> },
     { label: "Education", href: "#education", icon: <GraduationCap className="w-4 h-4" /> },
     { label: "Contact", href: "#contact", icon: <MessageCircle className="w-4 h-4" /> }
   ];
@@ -27,7 +27,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="font-bold text-xl">
-            <span className="text-gradient">Sudhanshu</span>
+            <span className="text-gradient">Himanshu</span>
           </div>
 
           {/* Desktop navigation */}

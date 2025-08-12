@@ -5,23 +5,23 @@ import { GraduationCap, Calendar, MapPin, Award } from "lucide-react";
 const EducationSection = () => {
   const education = [
     {
-      degree: "B.Tech in Computer Science",
-      institution: "Jai Narain College Of Technology",
-      duration: "Nov 2021 – May 2025",
+      degree: "BBA (Bachelor of Business Administration)",
+      institution: "International School Of Management, Patna",
+      duration: "Oct 2022 – Aug 2025",
       type: "Bachelor's Degree",
       status: "Completed"
     },
     {
       degree: "Higher Secondary (XII)",
-      institution: "Sita Ram Uchhtar Madhyamik Vidhyalay Chappra",
-      duration: "April 2019 - June 2021",
+      institution: "Nawab High School, Shehor",
+      duration: "April 2020 - May 2022",
       type: "12th Grade",
       status: "Completed"
     },
     {
       degree: "Secondary School (X)",
-      institution: "St Severin's High School Patna",
-      duration: "March 2019",
+      institution: "S.T Severin's High School",
+      duration: "March 2020",
       type: "10th Grade",
       status: "Completed"
     }
@@ -93,11 +93,12 @@ const EducationSection = () => {
               <CardContent className="p-8 text-center">
                 <div className="flex items-center justify-center gap-3 mb-4">
                   <GraduationCap className="w-8 h-8" />
-                  <h3 className="text-2xl font-bold">Fresh Graduate Ready to Excel</h3>
+                  <h3 className="text-2xl font-bold">Business Graduate Ready to Lead</h3>
                 </div>
                 <p className="text-lg opacity-90 max-w-2xl mx-auto">
-                  Recently completed Computer Science degree with hands-on project experience 
-                  and industry-relevant skills. Ready to contribute to innovative teams and grow professionally.
+                  Recently completed Business Administration degree with proven experience in 
+                  management and customer relations. Ready to drive organizational success and contribute 
+                  to dynamic business environments.
                 </p>
               </CardContent>
             </Card>

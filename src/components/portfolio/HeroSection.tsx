@@ -13,25 +13,25 @@ const HeroSection = () => {
         <div className="text-center max-w-4xl mx-auto">
           {/* Status badge */}
           <Badge variant="secondary" className="mb-6 px-4 py-2 text-sm font-medium shadow-card">
-            🎓 Fresh Graduate • Available for Opportunities
+            💼 BBA Graduate • Open to Opportunities
           </Badge>
           
           {/* Main heading */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
-            <span className="text-gradient">Sudhanshu Ranjan</span>
+            <span className="text-gradient">Himanshu Ranjan</span>
           </h1>
           
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-4 font-medium">
-            Computer Science Graduate & Software Developer
+            Business Administration Graduate & Management Professional
           </p>
           
           {/* Specialization */}
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            Passionate about leveraging <span className="text-primary font-semibold">Python</span>, 
-            <span className="text-primary font-semibold"> Java</span>, and 
-            <span className="text-primary font-semibold"> AWS Cloud Technologies</span> to build 
-            scalable and innovative software solutions.
+            Passionate about leveraging <span className="text-primary font-semibold">Leadership</span>, 
+            <span className="text-primary font-semibold"> Project Management</span>, and 
+            <span className="text-primary font-semibold"> Business Development</span> to drive 
+            organizational success and growth.
           </p>
           
           {/* Contact buttons */}
@@ -42,7 +42,7 @@ const HeroSection = () => {
               className="gradient-primary shadow-hero transition-smooth hover:shadow-float hover:scale-105"
               asChild
             >
-              <a href="mailto:Sudhanshuranjan029@gmail.com" className="flex items-center gap-2">
+              <a href="mailto:ranjanhimanshu011@gmail.com" className="flex items-center gap-2">
                 <Mail className="w-5 h-5" />
                 Get In Touch
               </a>
@@ -54,34 +54,24 @@ const HeroSection = () => {
               className="transition-smooth hover:shadow-card hover:scale-105 border-primary/20 hover:border-primary"
               asChild
             >
-              <a href="tel:8825234780" className="flex items-center gap-2">
+              <a href="tel:7061326188" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
                 Call Me
               </a>
             </Button>
           </div>
           
-          {/* Social links */}
+          {/* Contact info */}
           <div className="flex gap-6 justify-center">
-            <a 
-              href="https://linkedin.com/in/sudhanshu-ranjan-362127229/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-smooth hover:scale-110"
-            >
-              <Linkedin className="w-6 h-6" />
-              <span className="hidden sm:inline">LinkedIn</span>
-            </a>
+            <div className="flex items-center gap-2 text-muted-foreground">
+              <Mail className="w-6 h-6" />
+              <span className="hidden sm:inline">ranjanhimanshu011@gmail.com</span>
+            </div>
             
-            <a 
-              href="https://github.com/Sudhanshu88" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-smooth hover:scale-110"
-            >
-              <Github className="w-6 h-6" />
-              <span className="hidden sm:inline">GitHub</span>
-            </a>
+            <div className="flex items-center gap-2 text-muted-foreground">
+              <Phone className="w-6 h-6" />
+              <span className="hidden sm:inline">7061326188</span>
+            </div>
             
             <div className="flex items-center gap-2 text-muted-foreground">
               <MapPin className="w-6 h-6" />
